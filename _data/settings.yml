@@ -1,0 +1,93 @@
+#-------------------------------
+# General Site Settings
+
+title: opensensorsdata
+description: shape data to shape society
+email: contact@opensensorsdata.it
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: <i class="fa fa-github"></i>, url: 'https://github.com/opensensorsdata'}- {name: <i class="fa fa-twitter"></i>, url: 'http://twitter.com/osd_it'}- {name: <i class="fa fa-medium"></i>, url: 'https://medium.com/opensensorsdata-review'}- {name: manifesto, url: '#manifesto'}- {name: contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  In the digital era information is power. Without access to data there is no reliable public information, and so no power for people. We are an internet startup committed to provide open access to world data and tools to combine, compare and shape to create meaningful information. Our goal is to empower people to shape society by shaping data, brick after brick  action:- {title: 'access to data',  image: 'Lego_Brick.svg',  content: 'access to public data, both physical and digital,  through our opendatabank or store your private datastreams in one of our safe-deposit box'}- {title: 'build data into bricks',  image: 'Lego_dimensions.svg',  content: 'combine, compare and shape datastreams into meaningful charts'}- {title: 'share and reuse your bricks',  image: 'HSLego.svg',  content: 'publish your bricks and share with your community or use our private workspaces with your collaborators'}  
+
+#-------------------------------# Manifesto Sectionmanifesto: >  **Lorem ipsum dolor sit amet, consectetur adipiscing elit**. Nulla nec diam vitae lorem suscipit porttitor. Cras pretium sapien posuere odio sagittis dapibus.       <i class="fa fa-barcode"></i>      **Pellentesque vulputate tortor quis quam cursus**, in suscipit tortor consequat. Ut quis sollicitudin velit, et vehicula ante. Ut tristique aliquam convallis. Nam pellentesque dapibus erat, non tincidunt magna congue nec. Fusce non rhoncus nulla, sed auctor lorem.       <i class="fa fa-cube"></i>      **Aenean dignissim convallis felis**, at vehicula massa laoreet at.       In aliquet rutrum leo eu aliquam. Donec congue lobortis neque ut viverra.       <i class="fa fa-connectdevelop fa-lg"></i>   *Aenean sagittis mi non rhoncus euismod*. Pellentesque ut neque dolor. Phasellus vitae aliquet lectus. Nunc rutrum augue non libero porttitor, eget mollis nibh pulvinar.       <i class="fa fa-cubes"></i>      In urna risus, luctus pulvinar posuere quis, ultricies porttitor arcu. Mauris tincidunt facilisis varius.       [![osd_icon](assets/img/manifesto/osd_black_20.svg)](#manifesto)      **Cras pulvinar lacinia venenatis**. Donec porta nibh quis quam mollis dignissim. Mauris luctus enim at risus scelerisque mattis. Nunc nec sem arcu. Nunc dapibus arcu nibh, eget aliquet dui facilisis at.       <i class="fa fa-cog"></i>      Fusce molestie, leo id scelerisque vehicula, justo quam commodo lacus, rhoncus feugiat lorem felis sed diam. Maecenas tortor velit, cursus egestas dui id, suscipit faucibus felis.       <i class="fa fa-cogs"></i>     Sed lobortis leo quis mattis aliquet. Vestibulum blandit orci risus, sit amet facilisis ipsum ultrices quis.
+
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face-aaroni.jpg',
+  name: 'Scott Summers',
+  title: 'Director of Design, OnToText Ind.',
+  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg',
+  name: 'Hank McCoy',
+  title: 'Eater of Salad, Antartica Int.',
+  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg',
+  name: 'Stacy Lang',
+  title: 'Social Media Girl, Quebec Int.',
+  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg',
+  name: 'Cleatus Cassidy',
+  title: 'VP of Helmut, Lorem Sorem LLC.',
+  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: '<i class="fa fa-twitter"></i>', link: 'http://twitter.com/osd_it'}- {icon: '<i class="fa fa-github"></i>', link: 'https://github.com/orgs/opensensorsdata'}- {icon: '<i class="fa fa-medium"></i>', link: 'https://medium.com/opensensorsdata-review'}- {icon: '<i class="fa fa-facebook-official"></i>', link: 'https://www.facebook.com/opensensorsdata'}
+- {icon: '<i class="fa fa-linkedin"></i>', link: 'https://www.linkedin.com/company/opensensorsdata-srl'}crew:- {face: 'corsato_thumb.svg',   name: 'luca corsato',   rule: 'administrator',   twitter: 'lucacorsato',   linkedin: 'https://it.linkedin.com/in/lucacorsato',  github: 'lucacorsato',  mail: 'luca@opensensorsdata.it'}- {face: 'raimondi_thumb.svg',   name: 'andrea raimondi',   rule: 'philosopher',   twitter: 'raimondiand',   linkedin: 'https://www.linkedin.com/pub/andrea-raimondi/31/177/199',  github: 'raimondiand',  mail: 'andrea@opensensorsdata.it'}- {face: 'cortesi_thumb.svg',   name: 'simone cortesi',   rule: 'dr. manhattan',   twitter: 'simonecortesi',   linkedin: 'https://www.linkedin.com/in/simonecortesi/en',  github: 'cortesimone',  mail: 'sione@opensensorsdata.it'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

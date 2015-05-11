@@ -1,0 +1,23 @@
+footer
+  @extend %background-image
+  background-image: url(../img/logo/#{$logo-path}), url(../img/sfondo/#{$hero-path})
+  
+  .lockup
+    padding: 60px 100px
+    +clearfix    
+    
+    .content-wrap
+      float: left
+      margin-left: 80px      
+      
+      .copyright
+        margin: 0
+        font-size: 12px        color: $linkColor        line-height: 2                                              .privacy        margin: 0        font-size: 10px        color: $linkColor        line-height: 2              
+      
+      a
+        @extend %small-bold
+        color: $linkColor        display: inline-block
+        margin-right: 30px
+        
+        &:hover
+          color: $linkColorHover
