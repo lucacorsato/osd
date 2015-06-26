@@ -1,17 +1,0 @@
-<section>
-
-  <h3 id="about-me"></h3>
-    
-  
-<div class="blurb">
-  {{ site.data.settings.blurb | markdownify }}
-</div>
-  
-  
-{% for action in site.data.settings.action %}
-
-<div class="action">
-  <h1><a href="#about-me"><i class="fa fa-angle-up fa-lg"></i></a>{{ action.title }}<a href="#manifesto"><i class="fa fa-angle-down fa-lg"></i></a></h1>
-  <figure class="action-image">  	  <a href=""><img src="assets/img/about/images/{{ action.image }}" alt="action.image"></a>  	  <figcaption>  			<p class="content">{{ action.content }}</p>  		</figcaption>  	</figure>  </div>  {% endfor %}  
-
-</section>
